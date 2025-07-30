@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/gh-test/" : "/",
+  base: "/gh-test/",
   integrations: [
     starlight({
       title: "My Docs",
